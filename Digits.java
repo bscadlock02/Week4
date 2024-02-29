@@ -5,7 +5,7 @@ public class Digits {
     int hundred;
     int ten;
     int one;
-    one = 30 % 3;
+    one = (num % 10);
     ten = (num % 100)/10;
     hundred = (num /100);
     System.out.println("The hundreds-place digit is:" + hundred);
