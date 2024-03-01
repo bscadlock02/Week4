@@ -6,7 +6,7 @@ public class AccountSetup {
         int password; 
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter your fullname:");
+        System.out.println("Enter your name:");
         fullname = input.nextInt();
         System.out.println("Enter your password:");
         password = input.nextInt();
@@ -14,7 +14,7 @@ public class AccountSetup {
         String fullname = "Mrs. Karen Connell";
         String password = "Javarocks";
         
-        System.out.println("Your Full name is: " + fullname);
+        System.out.println("Your name is: " + fullname);
         System.out.println("Your password is: " + password);
     }
  }
